@@ -9,6 +9,7 @@ class Formatter {
   }
 
   static titleize(string){
+    //string is a word here
     let exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     let stringToCapitalize = string.charAt(0).toUpperCase() + string.slice(1)
     let array = stringToCapitalize.split(" ")
